@@ -1,0 +1,557 @@
+{
+  "designs": [
+    {
+      "id": "D1",
+      "name": "合成纹样甲",
+      "version": "v1",
+      "parents": []
+    },
+    {
+      "id": "D2",
+      "name": "合成纹样甲改色",
+      "version": "v2",
+      "parents": [
+        "D1"
+      ]
+    },
+    {
+      "id": "D3",
+      "name": "合成纹样乙",
+      "version": "v1",
+      "parents": []
+    }
+  ],
+  "pieces": [
+    {
+      "id": "P1",
+      "design_id": "D2",
+      "maker_id": "M2",
+      "made_at": "2026-09-01",
+      "material_cost_fen": 3100
+    },
+    {
+      "id": "P2",
+      "design_id": "D3",
+      "maker_id": "M3",
+      "made_at": "2026-09-01",
+      "material_cost_fen": 3200
+    },
+    {
+      "id": "P3",
+      "design_id": "D1",
+      "maker_id": "M4",
+      "made_at": "2026-09-01",
+      "material_cost_fen": 3300
+    },
+    {
+      "id": "P4",
+      "design_id": "D2",
+      "maker_id": "M1",
+      "made_at": "2026-09-01",
+      "material_cost_fen": 3400
+    },
+    {
+      "id": "P5",
+      "design_id": "D3",
+      "maker_id": "M2",
+      "made_at": "2026-09-01",
+      "material_cost_fen": 3500
+    },
+    {
+      "id": "P6",
+      "design_id": "D1",
+      "maker_id": "M3",
+      "made_at": "2026-09-01",
+      "material_cost_fen": 3600
+    },
+    {
+      "id": "P7",
+      "design_id": "D2",
+      "maker_id": "M4",
+      "made_at": "2026-09-01",
+      "material_cost_fen": 3700
+    },
+    {
+      "id": "P8",
+      "design_id": "D3",
+      "maker_id": "M1",
+      "made_at": "2026-09-01",
+      "material_cost_fen": 3800
+    },
+    {
+      "id": "P9",
+      "design_id": "D1",
+      "maker_id": "M2",
+      "made_at": "2026-09-01",
+      "material_cost_fen": 3900
+    },
+    {
+      "id": "P10",
+      "design_id": "D2",
+      "maker_id": "M3",
+      "made_at": "2026-09-01",
+      "material_cost_fen": 4000
+    },
+    {
+      "id": "P11",
+      "design_id": "D3",
+      "maker_id": "M4",
+      "made_at": "2026-09-01",
+      "material_cost_fen": 4100
+    },
+    {
+      "id": "P12",
+      "design_id": "D1",
+      "maker_id": "M1",
+      "made_at": "2026-09-01",
+      "material_cost_fen": 4200
+    },
+    {
+      "id": "P13",
+      "design_id": "D2",
+      "maker_id": "M2",
+      "made_at": "2026-09-01",
+      "material_cost_fen": 4300
+    },
+    {
+      "id": "P14",
+      "design_id": "D3",
+      "maker_id": "M3",
+      "made_at": "2026-09-01",
+      "material_cost_fen": 4400
+    },
+    {
+      "id": "P15",
+      "design_id": "D1",
+      "maker_id": "M4",
+      "made_at": "2026-09-01",
+      "material_cost_fen": 4500
+    },
+    {
+      "id": "P16",
+      "design_id": "D2",
+      "maker_id": "M1",
+      "made_at": "2026-09-01",
+      "material_cost_fen": 4600
+    },
+    {
+      "id": "P17",
+      "design_id": "D3",
+      "maker_id": "M2",
+      "made_at": "2026-09-01",
+      "material_cost_fen": 4700
+    },
+    {
+      "id": "P18",
+      "design_id": "D1",
+      "maker_id": "M3",
+      "made_at": "2026-09-01",
+      "material_cost_fen": 4800
+    }
+  ],
+  "consignments": [
+    {
+      "id": "C1",
+      "piece_id": "P1",
+      "channel": "店甲",
+      "sent": "2026-09-05",
+      "display_price_fen": 10100,
+      "sold_at": "2026-09-11",
+      "status": "售出"
+    },
+    {
+      "id": "C2",
+      "piece_id": "P2",
+      "channel": "店乙",
+      "sent": "2026-09-05",
+      "display_price_fen": 10200,
+      "sold_at": "2026-09-12",
+      "status": "售出"
+    },
+    {
+      "id": "C3",
+      "piece_id": "P3",
+      "channel": "店甲",
+      "sent": "2026-09-05",
+      "display_price_fen": 10300,
+      "sold_at": "2026-09-13",
+      "status": "售出"
+    },
+    {
+      "id": "C4",
+      "piece_id": "P4",
+      "channel": "店乙",
+      "sent": "2026-09-05",
+      "display_price_fen": 10400,
+      "sold_at": null,
+      "status": "在售"
+    },
+    {
+      "id": "C5",
+      "piece_id": "P5",
+      "channel": "店甲",
+      "sent": "2026-09-05",
+      "display_price_fen": 10500,
+      "sold_at": "2026-09-15",
+      "status": "售出"
+    },
+    {
+      "id": "C6",
+      "piece_id": "P6",
+      "channel": "店乙",
+      "sent": "2026-09-05",
+      "display_price_fen": 10600,
+      "sold_at": "2026-09-16",
+      "status": "售出"
+    },
+    {
+      "id": "C7",
+      "piece_id": "P7",
+      "channel": "店甲",
+      "sent": "2026-09-05",
+      "display_price_fen": 10700,
+      "sold_at": "2026-09-17",
+      "status": "售出"
+    },
+    {
+      "id": "C8",
+      "piece_id": "P8",
+      "channel": "店乙",
+      "sent": "2026-09-05",
+      "display_price_fen": 10800,
+      "sold_at": null,
+      "status": "在售"
+    },
+    {
+      "id": "C9",
+      "piece_id": "P9",
+      "channel": "店甲",
+      "sent": "2026-09-05",
+      "display_price_fen": 10900,
+      "sold_at": "2026-09-19",
+      "status": "售出"
+    },
+    {
+      "id": "C10",
+      "piece_id": "P10",
+      "channel": "店乙",
+      "sent": "2026-09-05",
+      "display_price_fen": 11000,
+      "sold_at": "2026-09-20",
+      "status": "售出"
+    },
+    {
+      "id": "C11",
+      "piece_id": "P11",
+      "channel": "店甲",
+      "sent": "2026-09-05",
+      "display_price_fen": 11100,
+      "sold_at": "2026-09-21",
+      "status": "售出"
+    },
+    {
+      "id": "C12",
+      "piece_id": "P12",
+      "channel": "店乙",
+      "sent": "2026-09-05",
+      "display_price_fen": 11200,
+      "sold_at": null,
+      "status": "在售"
+    },
+    {
+      "id": "C13",
+      "piece_id": "P13",
+      "channel": "店甲",
+      "sent": "2026-09-05",
+      "display_price_fen": 11300,
+      "sold_at": "2026-09-23",
+      "status": "售出"
+    },
+    {
+      "id": "C14",
+      "piece_id": "P14",
+      "channel": "店乙",
+      "sent": "2026-09-05",
+      "display_price_fen": 11400,
+      "sold_at": "2026-09-24",
+      "status": "售出"
+    },
+    {
+      "id": "C15",
+      "piece_id": "P15",
+      "channel": "店甲",
+      "sent": "2026-09-05",
+      "display_price_fen": 11500,
+      "sold_at": "2026-09-25",
+      "status": "售出"
+    },
+    {
+      "id": "C16",
+      "piece_id": "P16",
+      "channel": "店乙",
+      "sent": "2026-09-05",
+      "display_price_fen": 11600,
+      "sold_at": null,
+      "status": "在售"
+    },
+    {
+      "id": "C17",
+      "piece_id": "P17",
+      "channel": "店甲",
+      "sent": "2026-09-05",
+      "display_price_fen": 11700,
+      "sold_at": "2026-09-27",
+      "status": "售出"
+    },
+    {
+      "id": "C18",
+      "piece_id": "P18",
+      "channel": "店乙",
+      "sent": "2026-09-05",
+      "display_price_fen": 11800,
+      "sold_at": "2026-09-10",
+      "status": "售出"
+    }
+  ],
+  "rights": [
+    {
+      "id": "R1",
+      "design_id": "D1",
+      "creator": "M1",
+      "kind": "设计许可",
+      "share": 0.6,
+      "regions": [
+        "甲地"
+      ],
+      "uses": [
+        "门店生产"
+      ],
+      "from": "2026-09-01",
+      "to": "2026-12-31",
+      "status": "已确认"
+    },
+    {
+      "id": "R2",
+      "design_id": "D1",
+      "creator": "M2",
+      "kind": "设计许可",
+      "share": 0.4,
+      "regions": [
+        "甲地"
+      ],
+      "uses": [
+        "门店生产"
+      ],
+      "from": "2026-09-01",
+      "to": "2026-12-31",
+      "status": "争议中"
+    },
+    {
+      "id": "R3",
+      "design_id": "D2",
+      "creator": "M3",
+      "kind": "新设计贡献",
+      "share": 0.3,
+      "regions": [
+        "甲地"
+      ],
+      "uses": [
+        "实物分成"
+      ],
+      "from": "2026-09-01",
+      "to": null,
+      "status": "已确认"
+    }
+  ],
+  "licenses": [
+    {
+      "id": "L1",
+      "design_id": "D1",
+      "channel": "店甲",
+      "region": "甲地",
+      "use": "门店生产",
+      "copies": 100,
+      "fee_fen": 50000,
+      "confirmed": "2026-09-10",
+      "status": "已付款"
+    }
+  ],
+  "cash": [
+    {
+      "id": "CA1",
+      "source_id": "L1",
+      "type": "许可收款",
+      "fen": 50000,
+      "date": "2026-09-10"
+    },
+    {
+      "id": "CA2",
+      "source_id": "C1",
+      "type": "寄售部分回款",
+      "fen": 5000,
+      "date": "2026-09-20"
+    },
+    {
+      "id": "CA3",
+      "source_id": "L1",
+      "type": "创作者已付",
+      "creator": "M1",
+      "fen": 30000,
+      "date": "2026-09-22"
+    }
+  ],
+  "returns": [
+    {
+      "id": "RT1",
+      "consignment_id": "C1",
+      "piece_id": "P1",
+      "date": "2026-09-25",
+      "reason": "尺寸不合",
+      "refund_fen": 5000
+    }
+  ],
+  "contribution_changes": [
+    {
+      "id": "CC1",
+      "design_id": "D2",
+      "parent": "D1",
+      "status": "沿用范围待审",
+      "known_at": "2026-09-24"
+    }
+  ],
+  "maker_terms": [
+    {
+      "id": "MT1",
+      "kind": "制作报酬",
+      "fen_per_piece": 2000,
+      "pay_after": "验收确认",
+      "scope": "全部合成作品"
+    }
+  ],
+  "piece_acceptance": [
+    {
+      "id": "ACC1",
+      "piece_id": "P1",
+      "status": "验收确认",
+      "at": "2026-09-02"
+    },
+    {
+      "id": "ACC2",
+      "piece_id": "P2",
+      "status": "验收确认",
+      "at": "2026-09-02"
+    },
+    {
+      "id": "ACC3",
+      "piece_id": "P3",
+      "status": "验收确认",
+      "at": "2026-09-02"
+    },
+    {
+      "id": "ACC4",
+      "piece_id": "P4",
+      "status": "验收确认",
+      "at": "2026-09-02"
+    },
+    {
+      "id": "ACC5",
+      "piece_id": "P5",
+      "status": "验收确认",
+      "at": "2026-09-02"
+    },
+    {
+      "id": "ACC6",
+      "piece_id": "P6",
+      "status": "验收确认",
+      "at": "2026-09-02"
+    },
+    {
+      "id": "ACC7",
+      "piece_id": "P7",
+      "status": "验收确认",
+      "at": "2026-09-02"
+    },
+    {
+      "id": "ACC8",
+      "piece_id": "P8",
+      "status": "验收确认",
+      "at": "2026-09-02"
+    },
+    {
+      "id": "ACC9",
+      "piece_id": "P9",
+      "status": "验收确认",
+      "at": "2026-09-02"
+    },
+    {
+      "id": "ACC10",
+      "piece_id": "P10",
+      "status": "验收确认",
+      "at": "2026-09-02"
+    },
+    {
+      "id": "ACC11",
+      "piece_id": "P11",
+      "status": "验收确认",
+      "at": "2026-09-02"
+    },
+    {
+      "id": "ACC12",
+      "piece_id": "P12",
+      "status": "验收确认",
+      "at": "2026-09-02"
+    },
+    {
+      "id": "ACC13",
+      "piece_id": "P13",
+      "status": "验收确认",
+      "at": "2026-09-02"
+    },
+    {
+      "id": "ACC14",
+      "piece_id": "P14",
+      "status": "验收确认",
+      "at": "2026-09-02"
+    },
+    {
+      "id": "ACC15",
+      "piece_id": "P15",
+      "status": "验收确认",
+      "at": "2026-09-02"
+    },
+    {
+      "id": "ACC16",
+      "piece_id": "P16",
+      "status": "验收确认",
+      "at": "2026-09-02"
+    },
+    {
+      "id": "ACC17",
+      "piece_id": "P17",
+      "status": "验收确认",
+      "at": "2026-09-02"
+    },
+    {
+      "id": "ACC18",
+      "piece_id": "P18",
+      "status": "验收确认",
+      "at": "2026-09-02"
+    }
+  ],
+  "sales_terms": [
+    {
+      "id": "SAL1",
+      "channel": "店甲",
+      "share_to_coop": 0.7,
+      "valid_from": "2026-09-01",
+      "refund_liability": "实物销售款按退货实际回款冲回，不冲销独立许可"
+    },
+    {
+      "id": "SAL2",
+      "channel": "店乙",
+      "share_to_coop": 0.75,
+      "valid_from": "2026-09-01",
+      "refund_liability": "实物销售款按退货实际回款冲回，不冲销独立许可"
+    }
+  ]
+}

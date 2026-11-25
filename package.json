@@ -1,0 +1,19 @@
+{
+  "name": "weaving-consignment",
+  "version": "0.1.0",
+  "private": true,
+  "description": "织锦寄售的作品贡献与渠道收益解释的合成资料与格式工具",
+  "type": "module",
+  "engines": {
+    "node": ">=22.22.1 <23"
+  },
+  "scripts": {
+    "inspect": "node support/inspect.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "ajv": "8.17.1",
+    "seedrandom": "3.0.5",
+    "simple-statistics": "7.8.8"
+  }
+}

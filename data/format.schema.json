@@ -1,0 +1,600 @@
+{
+  "type": [
+    "object"
+  ],
+  "properties": {
+    "cash": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "creator": {
+            "type": [
+              "string"
+            ]
+          },
+          "date": {
+            "type": [
+              "string"
+            ]
+          },
+          "fen": {
+            "type": [
+              "number"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "source_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "type": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "date",
+          "fen",
+          "id",
+          "source_id",
+          "type"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "consignments": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "channel": {
+            "type": [
+              "string"
+            ]
+          },
+          "display_price_fen": {
+            "type": [
+              "number"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "piece_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "sent": {
+            "type": [
+              "string"
+            ]
+          },
+          "sold_at": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "status": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "channel",
+          "display_price_fen",
+          "id",
+          "piece_id",
+          "sent",
+          "sold_at",
+          "status"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "contribution_changes": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "design_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "known_at": {
+            "type": [
+              "string"
+            ]
+          },
+          "parent": {
+            "type": [
+              "string"
+            ]
+          },
+          "status": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "design_id",
+          "id",
+          "known_at",
+          "parent",
+          "status"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "designs": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "name": {
+            "type": [
+              "string"
+            ]
+          },
+          "parents": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "string"
+              ]
+            }
+          },
+          "version": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "parents",
+          "version"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "licenses": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "channel": {
+            "type": [
+              "string"
+            ]
+          },
+          "confirmed": {
+            "type": [
+              "string"
+            ]
+          },
+          "copies": {
+            "type": [
+              "number"
+            ]
+          },
+          "design_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "fee_fen": {
+            "type": [
+              "number"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "region": {
+            "type": [
+              "string"
+            ]
+          },
+          "status": {
+            "type": [
+              "string"
+            ]
+          },
+          "use": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "channel",
+          "confirmed",
+          "copies",
+          "design_id",
+          "fee_fen",
+          "id",
+          "region",
+          "status",
+          "use"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "maker_terms": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "fen_per_piece": {
+            "type": [
+              "number"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "kind": {
+            "type": [
+              "string"
+            ]
+          },
+          "pay_after": {
+            "type": [
+              "string"
+            ]
+          },
+          "scope": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "fen_per_piece",
+          "id",
+          "kind",
+          "pay_after",
+          "scope"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "piece_acceptance": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "at": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "piece_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "status": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "at",
+          "id",
+          "piece_id",
+          "status"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "pieces": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "design_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "made_at": {
+            "type": [
+              "string"
+            ]
+          },
+          "maker_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "material_cost_fen": {
+            "type": [
+              "number"
+            ]
+          }
+        },
+        "required": [
+          "design_id",
+          "id",
+          "made_at",
+          "maker_id",
+          "material_cost_fen"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "returns": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "consignment_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "date": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "piece_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "reason": {
+            "type": [
+              "string"
+            ]
+          },
+          "refund_fen": {
+            "type": [
+              "number"
+            ]
+          }
+        },
+        "required": [
+          "consignment_id",
+          "date",
+          "id",
+          "piece_id",
+          "reason",
+          "refund_fen"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "rights": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "creator": {
+            "type": [
+              "string"
+            ]
+          },
+          "design_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "from": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "kind": {
+            "type": [
+              "string"
+            ]
+          },
+          "regions": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "string"
+              ]
+            }
+          },
+          "share": {
+            "type": [
+              "number"
+            ]
+          },
+          "status": {
+            "type": [
+              "string"
+            ]
+          },
+          "to": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "uses": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "string"
+              ]
+            }
+          }
+        },
+        "required": [
+          "creator",
+          "design_id",
+          "from",
+          "id",
+          "kind",
+          "regions",
+          "share",
+          "status",
+          "to",
+          "uses"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "sales_terms": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "channel": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "refund_liability": {
+            "type": [
+              "string"
+            ]
+          },
+          "share_to_coop": {
+            "type": [
+              "number"
+            ]
+          },
+          "valid_from": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "channel",
+          "id",
+          "refund_liability",
+          "share_to_coop",
+          "valid_from"
+        ],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": [
+    "cash",
+    "consignments",
+    "contribution_changes",
+    "designs",
+    "licenses",
+    "maker_terms",
+    "piece_acceptance",
+    "pieces",
+    "returns",
+    "rights",
+    "sales_terms"
+  ],
+  "additionalProperties": true,
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "织锦寄售的作品贡献与渠道收益解释合成资料格式"
+}
